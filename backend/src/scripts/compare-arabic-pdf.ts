@@ -1,11 +1,9 @@
 import PDFDocument from 'pdfkit';
 import fs from 'fs';
 import path from 'path';
-import { createRequire } from 'module';
 import bidiFactory from 'bidi-js';
 import { shapeArabicText } from 'naqqash';
 
-const require = createRequire(import.meta.url);
 const font = fs.readFileSync(
   path.resolve(path.dirname(require.resolve('naqqash')), '../fonts/Amiri-Regular.ttf'),
 );

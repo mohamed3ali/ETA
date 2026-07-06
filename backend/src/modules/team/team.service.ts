@@ -61,7 +61,7 @@ const buildInviteUrl = (token: string) => {
 };
 
 const toMemberView = (
-  m: CompanyMembership & { user?: User | null },
+  m: Omit<CompanyMembership, 'user'> & { user?: User | null },
 ): MemberView => ({
   id: m.user?.id ?? m.userId,
   membershipId: m.id,
