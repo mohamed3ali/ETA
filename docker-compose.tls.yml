@@ -1,0 +1,18 @@
+# Optional overlay that adds TLS termination at Nginx.
+# Usage:
+#   1. Issue certs: sudo certbot certonly --standalone -d app.example.com
+#   2. Uncomment the HTTPS server block in nginx/nginx.conf and replace
+#      `app.example.com` with your domain.
+#   3. Start the stack with both files:
+#        docker compose -f docker-compose.yml -f docker-compose.tls.yml up -d
+#
+# The certbot-webroot volume is used by the HTTP-01 challenge during renewal
+# (`certbot renew --webroot -w ./nginx/certbot-webroot`).
+
+services:
+  nginx:
+    ports:
+      - "443:443"
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - ./nginx/certbot-webroot:/var/www/certbot

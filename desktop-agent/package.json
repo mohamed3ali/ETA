@@ -1,0 +1,25 @@
+{
+  "name": "eta-desktop-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local helper that signs ETA invoices with the eSeal USB Token (dev mock + production scaffold)",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "test:sign": "tsx scripts/test-sign-flow.mts",
+    "test:flow": "tsx scripts/test-full-flow.mts",
+    "package:web": "powershell -ExecutionPolicy Bypass -File scripts/package-for-web.ps1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}

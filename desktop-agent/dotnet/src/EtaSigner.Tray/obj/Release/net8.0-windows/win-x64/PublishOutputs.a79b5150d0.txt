@@ -1,0 +1,2 @@
+D:\ETA\desktop-agent\dotnet\publish\EtaSigner.Core.pdb
+D:\ETA\desktop-agent\dotnet\publish\EtaSigner.exe

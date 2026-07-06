@@ -1,0 +1,12 @@
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.csproj.AssemblyReference.cache
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.GeneratedMSBuildEditorConfig.editorconfig
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.AssemblyInfoInputs.cache
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.AssemblyInfo.cs
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.csproj.CoreCompileInputs.cache
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\bin\Release\net8.0\EtaSigner.Core.deps.json
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\bin\Release\net8.0\EtaSigner.Core.dll
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\bin\Release\net8.0\EtaSigner.Core.pdb
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.dll
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\refint\EtaSigner.Core.dll
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\EtaSigner.Core.pdb
+d:\ETA\desktop-agent\dotnet\src\EtaSigner.Core\obj\Release\net8.0\ref\EtaSigner.Core.dll
